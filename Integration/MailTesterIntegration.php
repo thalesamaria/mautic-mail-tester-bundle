@@ -38,24 +38,4 @@ class MailTesterIntegration extends AbstractIntegration
         if ($formArea == 'keys') {
         }
     }
-
-    /**
-     * {@inheritdoc}
-     *
-     * @param $section
-     *
-     * @return string|array
-     */
-    public function getFormNotes($section)
-    {
-        if ('custom' === $section) {
-            return [
-                'template'   => 'MauticMailTesterBundle:Integration:mail-tester.html.php',
-                'parameters' => [
-                ],
-            ];
-        }
-
-        return parent::getFormNotes($section);
-    }
 }
