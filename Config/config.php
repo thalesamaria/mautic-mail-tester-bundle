@@ -2,7 +2,7 @@
 
 return [
     'name'        => 'MauticMailTesterBundle',
-    'description' => 'Mail tester integration for Mautic',
+    'description' => 'Mail-tester.com integration for Mautic',
     'author'      => 'mtcextendee.com',
     'version'     => '1.0',
     'routes'      => [
