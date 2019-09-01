@@ -38,7 +38,7 @@ class MailTesterController extends FormController
         );
         $fields['id'] = 0;
 
-        $mailTesterUsername = 'mautic';
+        $mailTesterUsername = 'test';
 
         $clientId = md5(
             $this->get('mautic.helper.user')->getUser()->getEmail().
